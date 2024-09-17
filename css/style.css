@@ -15,6 +15,8 @@
     max-width: 100%;
     background-color: white;
     margin-top: 100px;
+    padding-bottom: 100px;
+    padding-top: 50px;
   }
  
   .titolo{
@@ -40,7 +42,7 @@
   }
 
   body{
-    background-color: black;
+    background-color: rgb(245, 239, 239);
     font-family: sans-serif;
 }
 
@@ -107,13 +109,19 @@
     border: solid 1px rgb(18, 222, 18);
     border-radius: 50%;
     font-size: .9rem;
-}
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    }
 
-.x{
-    color: red;
-    border: solid 1px red;
-    border-radius: 50%;
-    font-size: .9rem;    
-}
+    .x{
+        color: red;
+        border: solid 1px red;
+        border-radius: 50%;
+        font-size: .9rem;
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;    
+    }
 
 
