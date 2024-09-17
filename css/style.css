@@ -56,7 +56,39 @@
     border-radius: 10px;
   }
 
+
+  #purple{
+    background-color: blueviolet ;
+  }
+
+  #green{
+    background-color: rgb(5, 246, 5);
+  }
+
+  #orange{
+    background-color: orange;
+
+  }
+
+  #pink{
+    background-color: pink;
+  }
+
+  #lightgreen{
+    background-color: rgb(50, 122, 50);
+  }
+
+
   .check{
     color: rgb(18, 222, 18);
     border: solid 1px rgb(18, 222, 18);
-  }
+    border-radius: 50%;
+}
+
+.x{
+    color: red;
+    border: solid 1px red;
+    border-radius: 50%;    
+}
+
+
