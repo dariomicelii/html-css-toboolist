@@ -17,14 +17,32 @@
     margin-top: 100px;
   }
  
+  .titolo{
+    display: inline;
+    vertical-align: middle;
+    font-size: 50px;
+  }
+
+  .header-container{
+    line-height: 100px;
+    margin-left: 30px;
+  }
+
+  .logo{
+    vertical-align: middle;
+  }
+
+
   .task{
     margin-top: 50px;
     margin-left: 50px;
+    color: rgb(71, 70, 70);
   }
 
   body{
     background-color: black;
-  }
+    font-family: sans-serif;
+}
 
   .top-header{
     background-color: rgb(255, 255, 255);
@@ -35,6 +53,7 @@
     background-color: lightskyblue;
     color: white;
     padding: 10px 20px;
+    border-radius: 5px;
   }
 
   .add-section{
@@ -42,10 +61,14 @@
     border: solid 1px lightgrey;
     color: lightgray;
     padding: 10px 20px;
+    border-radius: 5px;
+
   }
 
   .element{
     margin-left: 50px;
+    margin-top: 20px;
+    color: rgb(71, 70, 70);
   }
 
   .type{
@@ -83,12 +106,14 @@
     color: rgb(18, 222, 18);
     border: solid 1px rgb(18, 222, 18);
     border-radius: 50%;
+    font-size: .9rem;
 }
 
 .x{
     color: red;
     border: solid 1px red;
-    border-radius: 50%;    
+    border-radius: 50%;
+    font-size: .9rem;    
 }
 
 
